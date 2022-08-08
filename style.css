@@ -1,0 +1,109 @@
+/* header  */
+body{
+    font-family: 'Poppins', sans-serif;
+    gap: 20px;
+}
+.section-one{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    gap: 50px;
+    display: flex;
+    width: 100%;
+}
+#one{
+    font-size: 50px;
+}
+#three{
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: tomato;
+    border: 5px;
+}
+.div-one{
+    width: 50%;
+}
+.div-two{
+    width: 50%;
+}
+.div-three{
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+#four,#five{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+#six{
+    background-color: tomato;
+    color: black;
+    border-radius: 5px;
+}
+.div-three{
+    width: 40%;
+}
+.div-four{
+    width: 60%;
+}
+.section-two{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    gap: 100px;
+    margin: 20px;
+}
+.section-three{
+    background-color: black ;
+    color: white;
+    height: 300px;
+}
+#seven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    margin: 10px;
+    padding: 10px;
+}
+@media  screen and (max-width:577px) {
+    body{
+        gap: 10px;
+    }
+    .section-one{
+        width: 100%;
+
+    }
+    #three{
+        width: 100%;
+    }
+    .section-two{
+        display: block;
+    }
+}
+@media screen and (min-width:578px) and (max-width:850px){
+    .section-one{
+        width: 100%;
+
+    }
+    .section-two{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        gap: 100px;
+        margin: 20px;
+    }
+}
+
+
+
+
